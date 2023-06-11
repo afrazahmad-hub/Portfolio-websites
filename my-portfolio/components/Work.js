@@ -10,14 +10,14 @@ const Work = () => {
         <div className="bg-gray-200 rounded-b-lg shadow-xl">
           <div className="bg-red-400 h-[6px] w-full"></div>
           <div className="p-4">
-            <h2 className="text-gray-700 font-bold mb-2">My Resume App.</h2>
+            <h2 className="text-gray-700 font-bold mb-2">My Resume Apps.</h2>
             <p className="text-gray-700 mb-2">
-              A frontend based my resume application developed using typescript
+              A frontend based resume applications developed using typescript
               and tailwind CSS
             </p>
             <Link
               className="text-purple-700 underline italic"
-              href={"https://github.com/afrazahmad-hub/my_portfolio"}
+              href={"https://github.com/afrazahmad-hub/My-portfolio-websites"}
             >
               see on github
             </Link>
@@ -66,24 +66,6 @@ const Work = () => {
           <div className="bg-red-400 h-[6px] w-full"></div>
           <div className="p-4">
             <h2 className="text-gray-700 font-bold mb-2">
-              NFT(ERC721) mintable D-app.
-            </h2>
-            <p className="text-gray-700 mb-2">
-              Designed a Non-fungible tokens mintable dapp. Using Hardhat,
-              Solidity, Ethers.js, and typescript.
-            </p>
-            <Link
-              className="text-purple-700 underline italic"
-              href={"https://github.com/afrazahmad-hub/ERC721-MintingDapp"}
-            >
-              see on github
-            </Link>
-          </div>
-        </div>
-        <div className="bg-gray-200 rounded-b-lg shadow-xl">
-          <div className="bg-red-400 h-[6px] w-full"></div>
-          <div className="p-4">
-            <h2 className="text-gray-700 font-bold mb-2">
               Buy ME a Coffee, DeFi D-app
             </h2>
             <p className="text-gray-700 mb-2">
@@ -93,7 +75,25 @@ const Work = () => {
             </p>
             <Link
               className="text-purple-700 underline italic"
-              href={"https://github.com/afrazahmad-hub/my_portfolio"}
+              href={"https://github.com/afrazahmad-hub/Buy-me-a-Coffee-Dapp"}
+            >
+              see on github
+            </Link>
+          </div>
+        </div>
+        <div className="bg-gray-200 rounded-b-lg shadow-xl">
+          <div className="bg-red-400 h-[6px] w-full"></div>
+          <div className="p-4">
+            <h2 className="text-gray-700 font-bold mb-2">
+              NFT(ERC721) mintable D-app.
+            </h2>
+            <p className="text-gray-700 mb-2">
+              Designed a Non-fungible tokens mintable dapp. Using Hardhat,
+              Solidity, Ethers.js, and typescript.
+            </p>
+            <Link
+              className="text-purple-700 underline italic"
+              href={"https://github.com/afrazahmad-hub/ERC721-MintingDapp"}
             >
               see on github
             </Link>
