@@ -25,10 +25,10 @@ const About = () => {
         <div>
           <div className="flex item-center justify-between w-[300px]">
             <div className="flex flex-col gap-6">
-              <div className="flex gap-4 items-center font-medium">
+              {/* <div className="flex gap-4 items-center font-medium">
                 <AiOutlineGift className="text-[#ff4d41] text-[22px]" />
                 Birthday
-              </div>
+              </div> */}
               <div className="flex gap-4 items-center font-medium">
                 <FiBookOpen className="text-[#ff4d41] text-[22px]" />
                 Study
@@ -47,18 +47,22 @@ const About = () => {
               </div>
             </div>
             <div className="flex flex-col gap-6 text-gray-600">
-              <div>:</div>
+              {/* <div>:</div> */}
               <div>:</div>
               <div>:</div>
               <div>:</div>
               <div>:</div>
             </div>
             <div className="flex flex-col gap-6 text-gray-600">
-              <div>3rd March, 1990</div>
-              <div>PIDE, Islamabad & PIAIC</div>
+              {/* <div>3rd March, 1990</div> */}
+              <div>
+                <Link href="https://www.esc-clermont.fr/en/">
+                   ESC Business School
+                </Link>
+              </div>
               <div>www.dummy.com</div>
-              <div>Travelling, Hiking</div>
-              <div>Islamabad</div>
+              <div>Coding, Travelling, Hiking</div>
+              <div>Clermont Ferrand, France</div>
             </div>
           </div>
         </div>
